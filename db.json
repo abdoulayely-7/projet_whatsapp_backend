@@ -1,0 +1,21 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "nom": "Abdallah",
+      "telephone": "776667799"
+    },
+    {
+      "id": 2,
+      "nom": "Bara",
+      "telephone": "789990088"
+    }
+  ],
+  "groupes": [
+    {
+      "id": 1,
+      "nom": "Famille",
+      "membres": [1, 2]
+    }
+  ]
+}
