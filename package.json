@@ -19,5 +19,8 @@
   "homepage": "https://github.com/abdoulayely-7/projet_whatsapp_backend#readme",
   "dependencies": {
     "json-server": "^1.0.0-beta.3"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
   }
 }
