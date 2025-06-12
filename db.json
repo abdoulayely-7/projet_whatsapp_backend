@@ -1,21 +1,60 @@
 {
-  "contacts": [
+  "utilisateurs": [
     {
-      "id": 1,
-      "nom": "Abdallah",
-      "telephone": "776667799"
+      "id": "1",
+      "nom": "Ly",
+      "prenom": "Abdallah",
+      "avatar": "AL",
+      "telephone": "773795383",
+      "dernierMessage": "Tu m’achètes quoi ce soir ?",
+      "heure": "14:27",
+      "nonLus": 0,
+      "archive": false,
+      "brouillon": "",
+      "noteVocale": true,
+      "contact": ["2"],
+      "messages": [
+        {
+          "texte": "Salut Bara, ça va ?",
+          "auteur": "1",
+          "destinataire": "2",
+          "heure": "14:25",
+          "envoye": true,
+          "lu": true
+        },
+        {
+          "texte": "Tu m’achètes quoi ce soir ?",
+          "auteur": "1",
+          "destinataire": "2",
+          "heure": "14:27",
+          "envoye": true,
+          "lu": false
+        }
+      ]
     },
     {
-      "id": 2,
-      "nom": "Bara",
-      "telephone": "789990088"
-    }
-  ],
-  "groupes": [
-    {
-      "id": 1,
-      "nom": "Famille",
-      "membres": [1, 2]
+      "id": "2",
+      "nom": "Diop",
+      "prenom": "Bara",
+      "avatar": "BD",
+      "telephone": "776667799",
+      "dernierMessage": "Ça va bien Abdallah, et toi ?",
+      "heure": "14:26",
+      "nonLus": 1,
+      "archive": false,
+      "brouillon": "",
+      "noteVocale": false,
+      "contact": ["1"],
+      "messages": [
+        {
+          "texte": "Ça va bien Abdallah, et toi ?",
+          "auteur": "2",
+          "destinataire": "1",
+          "heure": "14:26",
+          "envoye": true,
+          "lu": true
+        }
+      ]
     }
   ]
 }
